@@ -25,7 +25,7 @@ $(document).ready(function(){
     } else if (colorArray.length > 3) {
       $("#sugar").show();
     } else {
-      $("#cc").show();
+      $("#sugar").show();
     }
 
   });
