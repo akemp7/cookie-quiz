@@ -20,9 +20,9 @@ $(document).ready(function(){
 
     if (foodArray.includes("oatmeal") && foodArray.includes("raisins")) {
       $("#or").show();
-    } else if () {
+    } else if (foodArray.includes("chocolate")) {
       $("#cc").show();
-    } else if () {
+    } else if (colorArray.length > 3) {
       $("#sugar").show();
     } else {
       $("#cc").show();
